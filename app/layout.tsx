@@ -9,6 +9,7 @@ import Categories from "./components/Categories";
 import GoldPoster from "./components/GoldPoster";
 import OriginalBrands from "./components/OriginalBrands";
 import Products from "./components/Products";
+import Footer from "./components/Footer";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -42,6 +43,7 @@ export default function RootLayout({
         <GoldPoster/>
         <OriginalBrands/>
         <Products/>
+        <Footer/>
         {children}
       </body>
     </html>
